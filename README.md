@@ -1,1 +1,1 @@
-# html-intro-week
+HTML sprint for Northcoders intro week.
