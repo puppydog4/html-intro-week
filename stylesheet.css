@@ -13,6 +13,7 @@ h1 {
   font-size: larger;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-stretch: extra-expanded;
+  color: #faec94;
 }
 .logo {
   display: flex;
