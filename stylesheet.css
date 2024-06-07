@@ -22,12 +22,14 @@ a:visited {
 
 .right {
   float: right;
-  max-width: 50%;
+  max-width: 49%;
+  border: 1px solid black;
 }
 
 .left {
   float: left;
-  max-width: 50%;
+  max-width: 49%;
+  border: 1px solid black;
 }
 
 html {
