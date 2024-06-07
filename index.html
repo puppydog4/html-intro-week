@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./stylesheet.css" />
     <title>Home</title>
+    <link rel="icon" href="link.png" />
   </head>
   <body>
     <header>
-      <div rule="logo container" class="logo">
-        <img src="link.png" alt="Black and Orange chainlink logo" />
-      </div>
-      <h1>Useful Links</h1>
+      <h1>
+        <header class="logo">
+          <img src="link.png" alt="Black and Orange chainlink logo" />
+        </header>
+        <header class="title">
+          <p class="title_text">LINKS</p>
+        </header>
+      </h1>
+
       <h2>
         <ul>
-          <li><a href="https://t.ly/foXXK">Google Calendar</a></li>
+          <li>Northcoders Calendar</li>
+          <iframe class="calendar" src="https://t.ly/6Vd5C"></iframe>
           <li>
             <a href="https://l2c.northcoders.com/courses/sd-notes"
               >Northcoders Notes</a
@@ -22,10 +29,11 @@
           </li>
         </ul>
       </h2>
+      <h3>Useful Links</h3>
     </header>
-    <main>
-      <div rule="container of lists" class="container">
-        <div rule="list of links" class="list_links left">
+    
+      <main class="container">
+        <section class="list_links left">
           <ul>
             <li>
               <a href="https://developer.mozilla.org/en-US/" target="_blank">
@@ -57,7 +65,9 @@
             </li>
             <li>
               <a
-                href="https://github.com/pluja/awesome-privacy?tab=readme-ov-file" target="_blank">
+                href="https://github.com/pluja/awesome-privacy?tab=readme-ov-file"
+                target="_blank"
+              >
                 Awesome Privacy</a
               >
               <p>
@@ -66,8 +76,8 @@
               </p>
             </li>
           </ul>
-        </div>
-        <div rule="list of links" class="list_links right">
+        </section>
+        <section class="list_links right">
           <ul>
             <li>
               <a href="https://github.com/" target="_blank">Github</a>
@@ -91,7 +101,9 @@
               </p>
             </li>
             <li>
-              <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>
+              <a href="https://stackoverflow.com/" target="_blank"
+                >Stack Overflow</a
+              >
               <p>
                 Stack Overflow is the largest, most trusted online community for
                 developers to learn, share their programming knowledge, and
@@ -99,13 +111,10 @@
               </p>
             </li>
           </ul>
-        </div>
-      </div>
+        <section>
     </main>
-    <footer>
-      <section class="pageFooter">
-        <p>Made by Claudio at Northcoders</p>
-      </section>
+    <footer class="page_footer">
+        Made by Claudio at Northcoders
     </footer>
   </body>
 </html>
