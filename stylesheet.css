@@ -1,3 +1,26 @@
 h1{
     text-align: center;
 }
+p {
+   
+    white-space: normal;
+    max-width: 50%;
+}
+a {
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+    max-width: 50%;
+
+}
+
+.left {
+    float: left;
+    max-width: 50%;
+}
+
+footer {
+    margin-top: 50%;
+}
