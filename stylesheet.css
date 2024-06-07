@@ -1,37 +1,40 @@
 h1 {
   text-align: center;
   margin-bottom: 30px;
-  color: orange;
+  color: #FAEC94;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 p {
   white-space: normal;
   max-width: 50%;
   font-weight: 500;
+  color: white
 }
 a {
   font-weight: bolder;
 }
 a:link{
-    color: yellow;
+    color: #FAEC94;
 }
 a:visited {
-    color: orange;
+    color: #FAEC94;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .right {
   float: right;
-  max-width: 50%;
+  max-width: 49%;
+  border: 1px solid black;
 }
 
 .left {
   float: left;
-  max-width: 50%;
+  max-width: 49%;
+  border: 1px solid black;
 }
 
 html {
-  background-color: gray
+  background-color: #4A4950;
 }
 
 body {
