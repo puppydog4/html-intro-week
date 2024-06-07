@@ -4,6 +4,14 @@ h1 {
   color: #faec94;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.calendar {
+    border: 0 solid gray;
+    width:80%;
+    min-height: 500px;
+    height:auto;
+    margin-bottom: 50px;
+}
+
 p {
   white-space: normal;
   max-width: 50%;
@@ -32,7 +40,6 @@ a:visited {
 .container {
     display: flex;
     min-height: 500px;
-    border: 1px solid black
 }
 
 .right {
